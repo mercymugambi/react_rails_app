@@ -15,6 +15,7 @@ Metrics/AbcSize:
   Max: 50
 Metrics/ClassLength:
   Max: 150
+
 Metrics/BlockLength:
   IgnoredMethods: ['describe']
   Max: 53
@@ -27,6 +28,8 @@ Style/ClassAndModuleChildren:
 Style/EachForSimpleLoop:
   Enabled: false
 Metrics/CyclomaticComplexity:
+  Enabled: false
+Lint/ScriptPermission:
   Enabled: false
 Metrics/PerceivedComplexity:
   Enabled: false
